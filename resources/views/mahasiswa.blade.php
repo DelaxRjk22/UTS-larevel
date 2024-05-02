@@ -38,7 +38,41 @@
     
       <div class="container" style="margin-left: 30px">
         <h1>ini adalah halaman mahasiswa</h1>
+
+
+        <table class="table table-danger table-hover table-striped table-bordered text-center"> 
+          <thead>
+            <tr>
+              <th>NPM</th>
+              <th>Nama Mahasiswa</th>
+              <th>Jenis Kelamin</th>
+              <th>Tanggal lahir</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php $nilai_awal = 1; ?>
+            @while ($nilai_awal <= $jumlah)
+               
+            <tr>
+              <td>2109010044</td>
+              <td>Rojak</td>
+              <td>Laki-Laki</td>
+              <td>06-5-2003</td>
+              <td>Jalan Santun no 13 a</td>
+            </tr>
+            <?php $nilai_awal++ ?>
+            @endwhile
+
+            
+            </tr>
+          </tbody>
+        </table>
+    
+    
+    
     </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
