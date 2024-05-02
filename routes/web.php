@@ -31,10 +31,3 @@ Route::get('profile', function () {
     return view('profile', compact('nama'));
     //return view('profile')->with('nama', $nama);
 });
-
-
-Route::get('profile', function () {
-    $nama = 'Rojak';
-    return view('profile', compact('nama'));
-    //return view('profile')->with('nama', $nama);
-});
